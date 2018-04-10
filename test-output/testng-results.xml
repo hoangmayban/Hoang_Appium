@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67511" started-at="2018-04-10T06:38:29Z" finished-at="2018-04-10T06:39:37Z">
+    <groups>
+    </groups>
+    <test name="Demo App test 1" duration-ms="35586" started-at="2018-04-10T06:38:29Z" finished-at="2018-04-10T06:39:05Z">
+      <class name="testcases.LoginHelioAccount">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.LoginHelioAccount@6c49835d]" name="beforeTest" is-config="true" duration-ms="19890" started-at="2018-04-10T13:38:29Z" finished-at="2018-04-10T13:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginHelioAccount()[pri:0, instance:testcases.LoginHelioAccount@6c49835d]" name="loginHelioAccount" duration-ms="12921" started-at="2018-04-10T13:38:49Z" finished-at="2018-04-10T13:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHelioAccount -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginHelioAccount@6c49835d]" name="afterTest" is-config="true" duration-ms="2759" started-at="2018-04-10T13:39:02Z" finished-at="2018-04-10T13:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.LoginHelioAccount -->
+    </test> <!-- Demo App test 1 -->
+    <test name="Demo App test 2" duration-ms="31906" started-at="2018-04-10T06:39:05Z" finished-at="2018-04-10T06:39:37Z">
+      <class name="testcases.LogOut">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.LogOut@74650e52]" name="beforeTest" is-config="true" duration-ms="20229" started-at="2018-04-10T13:39:05Z" finished-at="2018-04-10T13:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.LogOut@74650e52]" name="logout" duration-ms="10031" started-at="2018-04-10T13:39:25Z" finished-at="2018-04-10T13:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LogOut@74650e52]" name="afterTest" is-config="true" duration-ms="1638" started-at="2018-04-10T13:39:35Z" finished-at="2018-04-10T13:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.LogOut -->
+    </test> <!-- Demo App test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>

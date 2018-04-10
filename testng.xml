@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+    <test name="Demo App test 1">
+	<classes>
+	    <class name="testcases.LoginHelioAccount" />
+	</classes>
+    </test>
+
+
+	 <test name="Demo App test 2">
+	<classes>   
+	    <class name="testcases.LogOut" />
+	</classes>
+    </test>
+
+</suite>
