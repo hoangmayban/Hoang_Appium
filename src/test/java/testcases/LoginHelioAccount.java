@@ -1,6 +1,6 @@
 package testcases;
 
-
+import static org.testng.AssertJUnit.assertTrue;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -13,15 +13,11 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import commonMethod.commonMethod;
 
 
 
@@ -31,6 +27,7 @@ public class LoginHelioAccount {
 	HomeScreen homeS=new HomeScreen();
 	LoginHelioScreen loginHelio=new LoginHelioScreen();
 	NguoiDung nguoidung=new NguoiDung();
+	commonMethod cm=new commonMethod();
 
 	@BeforeTest
 	public void beforeTest() throws MalformedURLException {
@@ -66,14 +63,18 @@ public class LoginHelioAccount {
 		//click dang nhap
 		driver.findElementByXPath(loginHelio.getBtnLogin()).click();
 		
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		//open tab Nguoi dung
+		driver.findElementByXPath(nguoidung.getBtnNguoiDung()).click();
+		
+		//verify Tai khoan cua toi visible
+		assertTrue(cm.isElementPresent(driver, nguoidung.getBtnTaikhoancuatoi()));
+		
 	}
 
 	
-	
-
 	@AfterTest
 	public void afterTest() {
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		driver.quit();
 	}
 	

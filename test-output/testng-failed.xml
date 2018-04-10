@@ -10,13 +10,6 @@
           <include name="beforeTest"/>
         </methods>
       </class> <!-- testcases.LoginHelioAccount -->
-      <class name="testcases.LogOut">
-        <methods>
-          <include name="logout"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testcases.LogOut -->
     </classes>
   </test> <!-- Demo App test 1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
