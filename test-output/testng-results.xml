@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="72471" started-at="2018-04-10T08:18:45Z" finished-at="2018-04-10T08:19:57Z">
+  <suite name="Default suite" duration-ms="75936" started-at="2018-04-24T07:46:37Z" finished-at="2018-04-24T07:47:53Z">
     <groups>
     </groups>
-    <test name="Demo App test 1" duration-ms="40103" started-at="2018-04-10T08:18:45Z" finished-at="2018-04-10T08:19:25Z">
-      <class name="testcases.LoginHelioAccount">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.LoginHelioAccount@4f063c0a]" name="beforeTest" is-config="true" duration-ms="20430" started-at="2018-04-10T15:18:45Z" finished-at="2018-04-10T15:19:05Z">
+    <test name="Default test" duration-ms="75936" started-at="2018-04-24T07:46:37Z" finished-at="2018-04-24T07:47:53Z">
+      <class name="testcases.UpdateThongTinLienLac">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.UpdateThongTinLienLac@76707e36]" name="beforeTest" is-config="true" duration-ms="11778" started-at="2018-04-24T14:46:37Z" finished-at="2018-04-24T14:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginHelioAccount()[pri:0, instance:testcases.LoginHelioAccount@4f063c0a]" name="loginHelioAccount" duration-ms="17395" started-at="2018-04-10T15:19:05Z" finished-at="2018-04-10T15:19:23Z">
+        <test-method status="PASS" signature="updateThongtinLienLac()[pri:0, instance:testcases.UpdateThongTinLienLac@76707e36]" name="updateThongtinLienLac" duration-ms="60870" started-at="2018-04-24T14:46:49Z" finished-at="2018-04-24T14:47:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginHelioAccount -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginHelioAccount@4f063c0a]" name="afterTest" is-config="true" duration-ms="2260" started-at="2018-04-10T15:19:23Z" finished-at="2018-04-10T15:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testcases.LoginHelioAccount -->
-    </test> <!-- Demo App test 1 -->
-    <test name="Demo App test 2" duration-ms="32350" started-at="2018-04-10T08:19:25Z" finished-at="2018-04-10T08:19:57Z">
-      <class name="testcases.LogOut">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.LogOut@3712b94]" name="beforeTest" is-config="true" duration-ms="20211" started-at="2018-04-10T15:19:25Z" finished-at="2018-04-10T15:19:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.LogOut@3712b94]" name="logout" duration-ms="10367" started-at="2018-04-10T15:19:45Z" finished-at="2018-04-10T15:19:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LogOut@3712b94]" name="afterTest" is-config="true" duration-ms="1765" started-at="2018-04-10T15:19:55Z" finished-at="2018-04-10T15:19:57Z">
+        </test-method> <!-- updateThongtinLienLac -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.UpdateThongTinLienLac@76707e36]" name="afterTest" is-config="true" duration-ms="3274" started-at="2018-04-24T14:47:50Z" finished-at="2018-04-24T14:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- testcases.LogOut -->
-    </test> <!-- Demo App test 2 -->
-  </suite> <!-- Suite -->
+      </class> <!-- testcases.UpdateThongTinLienLac -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Demo App test 1(failed)">
+  <test name="Demo App test 2(failed)">
     <classes>
-      <class name="testcases.LoginHelioAccount">
+      <class name="testcases.UpdateThongTinCaNhan">
         <methods>
-          <include name="loginHelioAccount"/>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="updateThongTinCaNhan"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.LoginHelioAccount -->
+      </class> <!-- testcases.UpdateThongTinCaNhan -->
     </classes>
-  </test> <!-- Demo App test 1(failed) -->
+  </test> <!-- Demo App test 2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

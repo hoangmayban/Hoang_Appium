@@ -17,7 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import commonMethod.commonMethod;
+import commonMethod.CommonMethod;
 
 
 
@@ -27,7 +27,7 @@ public class LoginHelioAccount {
 	HomeScreen homeS=new HomeScreen();
 	LoginHelioScreen loginHelio=new LoginHelioScreen();
 	NguoiDung nguoidung=new NguoiDung();
-	commonMethod cm=new commonMethod();
+	CommonMethod cm=new CommonMethod();
 
 	@BeforeTest
 	public void beforeTest() throws MalformedURLException {
